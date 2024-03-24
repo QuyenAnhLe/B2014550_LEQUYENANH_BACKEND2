@@ -1,7 +1,7 @@
 
 const ApiError = require("../api-error")
 const ContactService = require("../services/contact.service")
-const MongoDB = require("../untils/mongodb.untils")
+const MongoDB = require("../utils/mongodb.util")
 
 // Create and Save a new Contact
 exports.create = async (req, res, next) => {
